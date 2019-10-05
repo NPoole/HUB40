@@ -5373,7 +5373,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="17.145" y="19.177" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="17.145" y="15.113" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U$5" library="label" package="HUB400" value="" x="5.08" y="34.29" smashed="yes"/>
+<element name="U$5" library="label" package="HUB400" value="" x="223.52" y="33.02" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="ROW1">

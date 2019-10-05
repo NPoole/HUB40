@@ -5061,10 +5061,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="RES-09333" x="203.2" y="9.144" size="1.778" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
 <attribute name="VALUE" x="203.2" y="9.906" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="R13" library="SparkFun-Resistors" package="0603" value="10k" x="211.201" y="23.241" smashed="yes" rot="MR180">
-<attribute name="NAME" x="211.201" y="22.479" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="211.201" y="23.241" size="1.778" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
-<attribute name="VALUE" x="211.201" y="24.003" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
+<element name="R13" library="SparkFun-Resistors" package="0603" value="10k" x="213.233" y="20.955" smashed="yes" rot="MR180">
+<attribute name="NAME" x="213.233" y="20.193" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-00824" x="213.233" y="20.955" size="1.778" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
+<attribute name="VALUE" x="213.233" y="21.717" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="F1" library="SparkFun-Fuses" package="1206" value="6V/0.5A" x="218.44" y="12.7" smashed="yes" rot="MR270">
 <attribute name="NAME" x="217.297" y="12.7" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
@@ -5859,16 +5859,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="213.347" y1="14.24" x2="214.646" y2="14.24" width="0.1524" layer="16"/>
 <wire x1="214.646" y1="14.24" x2="215.265" y2="14.859" width="0.1524" layer="16"/>
 <via x="215.265" y="14.859" extent="1-16" drill="0.35"/>
-<wire x1="215.265" y1="19.05" x2="215.265" y2="14.859" width="0.1524" layer="1"/>
-<wire x1="201.295" y1="20.955" x2="213.36" y2="20.955" width="0.1524" layer="1"/>
+<wire x1="215.265" y1="20.955" x2="215.265" y2="14.859" width="0.1524" layer="1"/>
+<wire x1="201.295" y1="20.955" x2="215.265" y2="20.955" width="0.1524" layer="1"/>
 <wire x1="201.295" y1="20.955" x2="199.39" y2="19.05" width="0.1524" layer="1"/>
 <wire x1="215.265" y1="14.859" x2="216.024" y2="14.1" width="0.1524" layer="16"/>
 <wire x1="216.024" y1="14.1" x2="218.44" y2="14.1" width="0.1524" layer="16"/>
-<wire x1="213.36" y1="20.955" x2="215.265" y2="19.05" width="0.1524" layer="1"/>
-<wire x1="212.051" y1="23.241" x2="216.86" y2="30.22" width="0" layer="19" extent="16-16"/>
-<wire x1="215.265" y1="14.859" x2="212.051" y2="23.241" width="0" layer="19" extent="16-16"/>
-<wire x1="216.86" y1="42.92" x2="216.86" y2="30.22" width="0" layer="19" extent="1-1"/>
-<wire x1="216.86" y1="55.62" x2="216.86" y2="42.92" width="0" layer="19" extent="1-1"/>
+<wire x1="214.083" y1="20.955" x2="215.265" y2="20.955" width="0.1524" layer="16"/>
+<via x="215.265" y="20.955" extent="1-16" drill="0.35"/>
+<wire x1="218.44" y1="14.1" x2="216.86" y2="15.68" width="0.508" layer="16"/>
+<wire x1="216.86" y1="15.68" x2="216.86" y2="30.22" width="0.508" layer="16"/>
+<wire x1="216.86" y1="30.22" x2="216.86" y2="42.92" width="0.508" layer="16"/>
+<wire x1="216.86" y1="42.92" x2="216.86" y2="55.62" width="0.508" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="5"/>
@@ -6030,7 +6031,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="210.312" y1="14.224" x2="210.312" y2="19.177" width="0.1524" layer="1"/>
 <wire x1="215.265" y1="13.716" x2="210.312" y2="13.716" width="0.1524" layer="1"/>
 <wire x1="212.344" y1="19.177" x2="210.312" y2="19.177" width="0.1524" layer="1"/>
-<wire x1="208.28" y1="19.177" x2="208.293" y2="16.74" width="0" layer="19" extent="16-16"/>
+<wire x1="208.28" y1="19.177" x2="208.293" y2="19.164" width="0.1524" layer="16"/>
+<wire x1="208.293" y1="19.164" x2="208.293" y2="16.74" width="0.1524" layer="16"/>
 </signal>
 <signal name="HOST_D-">
 <contactref element="U2" pad="P$1"/>
@@ -6140,7 +6142,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="N$64">
 <contactref element="U2" pad="P$17"/>
 <contactref element="R13" pad="1"/>
-<wire x1="210.32" y1="17.767" x2="210.351" y2="23.241" width="0" layer="19" extent="16-16"/>
+<wire x1="210.32" y1="17.767" x2="210.32" y2="18.892" width="0.1524" layer="16"/>
+<wire x1="210.32" y1="18.892" x2="212.383" y2="20.955" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$66">
 <contactref element="U2" pad="P$8"/>

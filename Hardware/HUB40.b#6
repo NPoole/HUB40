@@ -4321,45 +4321,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="SparkFun-LED">
-<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
-This library contains discrete LEDs for illumination or indication, but no displays.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED-RGB-THRU">
-<description>&lt;h3&gt;LED - RGB PTH&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
-&lt;li&gt;Area:5 x 5.8 mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Datasheet Referenced: &lt;a href="https://www.sparkfun.com/datasheets/Components/YSL-R596CR3G4B5C-C10.pdf"&gt;YSL-R596CR3G4B5C&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED-RGB-CA&lt;/li&gt;
-&lt;li&gt;LED-RGB-CC&lt;/li&gt;</description>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51" curve="-316.397181"/>
-<pad name="2" x="0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="1" x="1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="3" x="-0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="4" x="-1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="22"/>
-<text x="0" y="2.8575" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.8575" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21" curve="-316.397181"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-Hardware">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
@@ -5109,16 +5070,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="217.297" y="12.7" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08585" x="218.44" y="12.7" size="1.778" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
 <attribute name="VALUE" x="219.583" y="12.7" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
-</element>
-<element name="D49" library="SparkFun-LED" package="LED-RGB-THRU" value="DIFFUSE" x="128.27" y="15.621" smashed="yes" rot="R90">
-<attribute name="NAME" x="125.4125" y="15.621" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-10632" x="128.27" y="15.621" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="131.1275" y="15.621" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
-<element name="R14" library="SparkFun-Resistors" package="0603" value="330" x="130.81" y="15.24" smashed="yes" rot="MR270">
-<attribute name="NAME" x="130.048" y="15.24" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00818" x="130.81" y="15.24" size="1.778" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
-<attribute name="VALUE" x="131.572" y="15.24" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="USB-C-16P" value="" x="220.98" y="5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="223.52" y="5.08" size="0.762" layer="25" rot="R90" align="center"/>
@@ -5875,7 +5826,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="G3" pad="1"/>
 <contactref element="R13" pad="2"/>
 <contactref element="F1" pad="1"/>
-<contactref element="R14" pad="2"/>
 <wire x1="113.5035" y1="9.95113125" x2="112.05913125" y2="9.95113125" width="0.1524" layer="16"/>
 <wire x1="111.418" y1="9.31" x2="111.418" y2="5.588" width="0.1524" layer="16"/>
 <wire x1="112.05913125" y1="9.95113125" x2="111.418" y2="9.31" width="0.1524" layer="16"/>
@@ -5919,7 +5869,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="211.13" y1="49.79" x2="200.66" y2="42.76" width="0" layer="19" extent="16-16"/>
 <wire x1="211.13" y1="63.76" x2="211.13" y2="49.79" width="0" layer="19" extent="1-1"/>
 <wire x1="215.265" y1="14.859" x2="211.13" y2="33.28" width="0" layer="19" extent="1-1"/>
-<wire x1="130.81" y1="14.39" x2="123.19" y2="15.24" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="5"/>
@@ -6204,26 +6153,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="218.44" y="8.89" extent="1-16" drill="0.35"/>
 <wire x1="218.44" y1="8.89" x2="218.44" y2="11.3" width="0.508" layer="16"/>
 <wire x1="219.8" y1="7.53" x2="218.44" y2="8.89" width="0.508" layer="1"/>
-</signal>
-<signal name="N$63">
-<contactref element="D49" pad="2"/>
-<contactref element="R14" pad="1"/>
-<wire x1="128.27" y1="16.256" x2="130.81" y2="16.09" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="LED_RED">
-<contactref element="D49" pad="1"/>
-<contactref element="U1" pad="38"/>
-<wire x1="120.1765" y1="11.93" x2="128.27" y2="17.526" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="LED_BLU">
-<contactref element="D49" pad="4"/>
-<contactref element="U1" pad="40"/>
-<wire x1="120.1765" y1="10.93" x2="128.27" y2="13.716" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="LED_GRN">
-<contactref element="D49" pad="3"/>
-<contactref element="U1" pad="39"/>
-<wire x1="120.1765" y1="11.43" x2="128.27" y2="14.986" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="KBD-">
 <contactref element="U2" pad="P$3"/>
